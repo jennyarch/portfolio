@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ece0324.css",
+    "main.js": "/static/js/main.ac40c2de.js",
+    "static/media/imagemHome.svg": "/static/media/imagemHome.cea4c0eea8a2d99d6e5f73a44dcc3de7.svg",
+    "static/media/Jennyfer Conceição Santos.pdf": "/static/media/Jennyfer Conceição Santos.2b61d8c53f502e18b805.pdf",
+    "static/media/Jennyfer.jpg": "/static/media/Jennyfer.1d7e352b508869148f8a.jpg",
+    "index.html": "/index.html",
+    "main.0ece0324.css.map": "/static/css/main.0ece0324.css.map",
+    "main.ac40c2de.js.map": "/static/js/main.ac40c2de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ece0324.css",
+    "static/js/main.ac40c2de.js"
+  ]
+}
