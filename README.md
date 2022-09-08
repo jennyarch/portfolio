@@ -9,6 +9,8 @@ Neste projeto foram utilizadas as seguintes tecnologias:
     <li>React Icons</li>
     <li>React-Elastic-Carousel</li>
     <li>Scroll Reveal</li>
+    <li>EmailJs</li>
+    
   </ul>
 </div>
 <h2>🤝 Colaboradores</h2>
