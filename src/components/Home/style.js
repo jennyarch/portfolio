@@ -6,7 +6,7 @@ export const Conteudo = styled.div`
   justify-content: center;
   align-items: center;
   padding: 20px;
-  width: 500px;
+  width: 400px;
   height: auto;
     @media (max-width: 1200px){
       width: 400px;
@@ -130,7 +130,7 @@ export const Conteudo = styled.div`
       100%  {color: var(--color-1)}
     }
   }
-  & button{
+  .cv{
     display: inline-block;
     text-decoration: none;
     padding: 20px 50px;
@@ -143,7 +143,7 @@ export const Conteudo = styled.div`
     cursor: pointer;
 
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
     color: #fff;
 
       &:hover{
@@ -154,7 +154,7 @@ export const Conteudo = styled.div`
         }
         @media (max-width: 850px) {
           padding: 15px 25px;
-          font-size: 18px;        
+          font-size: 16px;        
         }
         @media (max-width: 450px) {
           padding: 12px  20px;

@@ -53,36 +53,26 @@ export const Nav = styled.nav`
       font-size: 20px;
     }
     @media (max-width: 450px) {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
   }
   .listFade {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        top: 55px;
-        left: 0;
-        text-align: center;
-        background-color: #2C3639;
-        opacity: 0.97;
-        @media (max-width: 1200px) {
-          height: 800px;
-          justify-content: space-around;
-          align-items: center;
-          margin: 0 auto;
-        }
+    background-color: #2C3639;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 55px;
+    left: 0;
+    opacity: 0.97;
         @media (max-width: 850px) {
-          height: 600px;
-          justify-content: space-around;
           align-items: center;
           margin: 0 auto;
         }
-        @media (max-width: 320px) {
-          height: 480px;
-          justify-content: space-around;
+        @media (max-width: 450px) {
           align-items: center;
           margin: auto;
         }

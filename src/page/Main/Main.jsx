@@ -8,13 +8,14 @@ import AboutMe from '../../components/AboutMe/AboutMe';
 import * as S from './styles';
 
 export default function Main(){
+  
   return (
     <S.Container>
       <S.sectionHeader >
         <Header/>
       </S.sectionHeader>
       <S.sectionHome id='home'>
-        <Home/>
+        <Home />
       </S.sectionHome>
       <S.sectionAboutMe id='about'>
         <AboutMe/>

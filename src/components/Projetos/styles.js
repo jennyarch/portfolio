@@ -5,32 +5,22 @@ export const Title = styled.div`
   flex-direction: row;
   align-items: center;
   gap: 5px;
-  @media (max-width: 320px) {
+  
+`;
+export const Information = styled.span`
+  display: none;
 
-  }
-  & h2{
-      font-size: 32px;
-      font-weight: 700;
+  @media (max-width: 450px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    & em{
       color: #fff;
-        @media (max-width: 1200px) {
-          font-size: 28px;
-        }
-        @media (max-width: 850px) {
-          font-size: 24px;       
-        }
+      font-size: 14px;
     }
-  .icon{
-    font-size: 35px;
-    color: #FFD700;
-        @media (max-width: 1200px) {
-          font-size: 35px;
-        }
-        @media (max-width: 850px) {
-          font-size: 28px;   
-        }
-        @media (max-width: 320px) {
-          font-size: 24px;
-        }
   }
   
 `;

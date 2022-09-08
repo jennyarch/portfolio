@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 import * as S from "./styles";
 import { IconContext } from "react-icons";
 import { RiContactsBook2Line } from "react-icons/ri";
@@ -9,23 +10,38 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import TextsmsOutlinedIcon from '@mui/icons-material/TextsmsOutlined';
 import { orange } from '@mui/material/colors';
 import { BsFacebook, BsInstagram, BsLinkedin, BsGithub } from 'react-icons/bs';
+import TitleSections from '../Title/TitleSections';
+import IconText from '../IconText/IconText';
 
 export default function Contato() {
+  useEffect(() => {
+    ScrollReveal({ reset: true });
 
-  const aoEnviarFormulario = (e) => {
+    ScrollReveal({
+      distance: '50px',
+      duration: 2000,
+      origin: 'top',
+      reset: false
+    });
+
+    ScrollReveal().reveal('.r-title', {delay: 200});
+    ScrollReveal().reveal('.r-content', {delay: 200});
+    ScrollReveal().reveal('.r-media', {delay: 200});
+  },[])
+
+  const sendForm = (e) => {
     e.preventDefault();
     console.log('fui submetido');
   }
-
   return (
     <>
       <S.Title>
-        <h2>Contato</h2>
-        <IconContext.Provider value={{ className: "icon" }}>
-          <RiContactsBook2Line />
-        </IconContext.Provider>
+        <TitleSections className="r-title">Contato</TitleSections>
+        <IconText>
+        <RiContactsBook2Line />
+        </IconText>
       </S.Title>
-      <S.Conteudo>
+      <S.Conteudo className='r-content'>
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
           <AccountCircle sx={{ color: orange[500], mr: 1, my: 0.5 }} />
           <TextField
@@ -74,9 +90,9 @@ export default function Contato() {
             }}
           />
         </Box>
-        <button onSubmit={aoEnviarFormulario}>Enviar</button>
+        <button onSubmit={sendForm}>Enviar</button>
       </S.Conteudo>
-        <S.MediaSocial>
+        <S.MediaSocial className='r-media'>
           <IconContext.Provider value={{ className: "iconMedia"}}>
             <a href="https://www.facebook.com/jenny.knowles.96/">
               <BsFacebook />

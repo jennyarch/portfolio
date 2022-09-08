@@ -88,7 +88,6 @@ export const sectionSkills = styled.section`
     @media (max-width: 1200px) {
       flex-direction: column;
     }
-  
 `;
 export const sectionContact = styled.section`
   display: flex;

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
-
-export const Conteudo = styled.div`
+export const Content = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -19,7 +18,7 @@ export const Conteudo = styled.div`
       width: 320px;        
     }
 `;
-export const ConteudoImagem = styled.div`
+export const ContentImage = styled.div`
   display: block;
   text-align: center;
     & img{
@@ -53,7 +52,7 @@ export const contentAboutMe = styled.div`
       width: 320px;
       height: auto;
     }
-  & article{
+  .content-title{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -61,33 +60,6 @@ export const contentAboutMe = styled.div`
       @media (max-width: 1200px) {
         justify-content: center;
       }
-    & h2{
-      font-size: 32px;
-      font-weight: 700;
-      color: #fff;
-        @media (max-width: 1200px) {
-          font-size: 35px;
-        }
-        @media (max-width: 850px) {
-          font-size: 24px;
-        }
-        @media (max-width: 450px) {
-          font-size: 22px;
-        }
-    }
-    .icon{
-      font-size: 35px;
-      color: #FFD700;
-        @media (max-width: 1200px) {
-          font-size: 35px;
-        }
-        @media (max-width: 850px) {
-          font-size: 24px;
-        }
-        @media (max-width: 450px) {
-          font-size: 22px;
-        }
-    }
   }
   & p{
     width: 500px;

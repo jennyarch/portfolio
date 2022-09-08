@@ -6,6 +6,7 @@
   padding: 0;
   outline: none;
   box-sizing: border-box;
+  text-decoration: none;
 }
 body {
   font-family: 'Josefin Sans', sans-serif;

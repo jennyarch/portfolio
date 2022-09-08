@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Aluroni",
+    "description": "Site para fins comerciais onde se pode apresentar receitas, ou até mesmo tipos especificos de pratos, nesse caso temos massas",
+    "photo": "/assets/projetos/aluroni.png",
+    "alt": "Imagem da interface da pagina Aluroni",
+    "id": 1,
+    "site": "https://aluroni-casadocodigo.netlify.app/",
+    "repo": "https://github.com/jennyarch/aluroni"
+  },
+  {
+    "title": "Calculadora IMC",
+    "description": "Uma calculadora que efetua o calculo da massa corporal.",
+    "photo": "/assets/projetos/Calculadora.png",
+    "alt": "Imagem da interface do site Calculadora IMC",
+    "id": 2,
+    "site": "https://calculadora-imc-0621.netlify.app/",
+    "repo": "https://github.com/jennyarch/calculadora-imc"
+  },
+  {
+    "title": "Alfood",
+    "description": "Site para restaurantes.",
+    "photo": "/assets/projetos/alfood.png",
+    "alt": "Imagem da interface do site Alfood",
+    "id": 3,
+    "site": "#",
+    "repo": "https://github.com/jennyarch/alfood-restaurantes"
+  },
+  {
+    "title": "Estudos com Cronômetro",
+    "description": "Um cronometro para se dar ínicio a uma escolha de tempo e conteudo pelo usuário.",
+    "photo": "/assets/projetos/cronometro.png",
+    "alt": "Imagem da interface do site Estudos com cronômetro",
+    "id": 4,
+    "site": "https://alura-studies-cronometro.netlify.app/",
+    "repo": "https://github.com/jennyarch/estudos-com-cronometro"
+  },
+  {
+    "title": "Site Movie",
+    "description": "Site de filmes, com consumo da api TMDB.",
+    "photo": "/assets/projetos/site-movie.png",
+    "alt": "Imagem da interface do site Movie",
+    "id": 5,
+    "site": "https://site-movie-tmdb.netlify.app/",
+    "repo": "https://github.com/jennyarch/site-movie-tmdb"
+  },
+  {
+    "title": "Aplicativos na Medida",
+    "description": "Site First Mobile",
+    "photo": "/assets/projetos/apeperia.png",
+    "alt": "Imagem da interface do site aplicativos na medida",
+    "id": 6,
+    "site": "https://apeperia-accessibility-pu1u8kj7g-jennyarch.vercel.app/",
+    "repo": "https://github.com/jennyarch/apeperia_accessibility"
+  },
+  {
+    "title": "Bateria Estilizada",
+    "description": "Site que com botões que simula sons de uma bateria bem legal.",
+    "photo": "/assets/projetos/bateria-estilizada.png",
+    "alt": "Imagem da interface do site Bateria Estilizada",
+    "id": 7,
+    "site": "https://bateria-estilizada.netlify.app/",
+    "repo": "https://github.com/jennyarch/bateria_estilizada"
+  },
+  {
+    "title": "landing Page IO",
+    "description": "É uma landing page baseada em projetos figma. ",
+    "photo": "/assets/projetos/landing-pageIo.png",
+    "alt": "Imagem da interface da Landing Page",
+    "id": 8,
+    "site": "#",
+    "repo": "https://github.com/jennyarch/landingPage_IO"
+  },
+  {
+    "title": "Smart Bank",
+    "description": "Site com uma interface moderna e com botão que muda o tema.",
+    "photo": "/assets/projetos/smartbank.png",
+    "alt": "Imagem da interface do site smart Bank",
+    "id": 9,
+    "site": "https://smartbank-2omkabm8w-jennyarch.vercel.app/",
+    "repo": "https://github.com/jennyarch/smartbank"
+  },
+  {
+    "title": "Tech Devs",
+    "description": "Um site que mostra uma lista de Desenvolvedores, com links para seus repositorios no Github",
+    "photo": "/assets/projetos/techdevs.png",
+    "alt": "Imagem da interface do site Tech Devs",
+    "id": 10,
+    "site": "#",
+    "repo": " https://github.com/jennyarch/tech_devs"
+  }
+  
+]
