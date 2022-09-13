@@ -18,7 +18,7 @@ export default function SobreMim(){
       reset: false
     })
 
-    ScrollReveal().reveal('.r-titulo', {delay: 200})
+    ScrollReveal().reveal('.content-title', {delay: 200})
     ScrollReveal().reveal('.r-paragrafo', {delay: 200})
     ScrollReveal().reveal('article', {delay: 200})
     ScrollReveal().reveal('figure', {delay: 300})

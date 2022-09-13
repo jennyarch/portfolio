@@ -10,7 +10,6 @@ import IconText from '../IconText/IconText';
 
 export default function Projetos(){
 
-  
   useEffect(() => {
     ScrollReveal({ reset: true});
 
