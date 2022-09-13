@@ -1,4 +1,5 @@
 <h1>Meu Portfófio</h1>
+<img width="100%" src="https://user-images.githubusercontent.com/33470911/190003382-e5f632ac-16b5-4863-a1d2-98ae0ff1daea.gif"/>
 <h2>🧩 Tecnologias </h2>
 Neste projeto foram utilizadas as seguintes tecnologias:
 <div>
