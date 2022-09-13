@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dc59cbf6.css",
+    "main.js": "/static/js/main.b3ae5c39.js",
+    "static/media/imagemHome.svg": "/static/media/imagemHome.cea4c0eea8a2d99d6e5f73a44dcc3de7.svg",
+    "static/media/Jennyfer_Conceicao_Santos.pdf": "/static/media/Jennyfer_Conceicao_Santos.2b61d8c53f502e18b805.pdf",
+    "static/media/logo_21.png": "/static/media/logo_21.c8616e3c92a2ac67a452.png",
+    "static/media/Jennyfer.jpg": "/static/media/Jennyfer.1d7e352b508869148f8a.jpg",
+    "index.html": "/index.html",
+    "main.dc59cbf6.css.map": "/static/css/main.dc59cbf6.css.map",
+    "main.b3ae5c39.js.map": "/static/js/main.b3ae5c39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc59cbf6.css",
+    "static/js/main.b3ae5c39.js"
+  ]
+}
