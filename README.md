@@ -19,8 +19,5 @@ Neste projeto foram utilizadas as seguintes tecnologias:
   <img width="200px" height="195px" border-radius="50%" alt="Fot Jennyfer C Santos" src="https://avatars.githubusercontent.com/u/33470911?v=4"/>
 </picture>
 <br>
-<<<<<<< HEAD
-<span>Foto de Jennyfer C. Santos no Git Hub</span>
-=======
 <span>Foto de Jennyfer C. Santos no Git Hub</span>
 
