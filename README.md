@@ -24,4 +24,3 @@ Neste projeto foram utilizadas as seguintes tecnologias:
 =======
 <span>Foto de Jennyfer C. Santos no Git Hub</span>
 
->>>>>>> 330b505cd72e104be76b801b7f8b678a9176f378
