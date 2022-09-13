@@ -8,6 +8,11 @@ export const Container = styled.div`
     background-color: #112B3C;
     color: #FFC23C;
     border: 2px solid #FFC23C;
+    :hover{
+      background-color: #395B64;
+      transform: rotate(360deg);
+      transition: 0.5s ease-out;
+    }
     @media (max-width: 450px) {
       display: none;
     }
@@ -18,7 +23,7 @@ export const Container = styled.div`
   .rec.rec-dot_active{
     box-shadow: 0 0 1px 3px #FFC23C;
   }
-  
+
 `;
 export const Card = styled.div`
   display: flex;
@@ -96,12 +101,7 @@ export const Card = styled.div`
     color: #fff;
     font-weight: 400;
     word-wrap: break-word;
-    /* @media (max-width: 1200px) {
-      width: 300px;
-    }
-    @media (max-width: 850px) {
-      width: 270px;
-    } */
+    
     @media (max-width: 850px){
       width: 80%;
       font-size: 14px;

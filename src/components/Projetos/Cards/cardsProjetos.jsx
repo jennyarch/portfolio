@@ -3,7 +3,6 @@ import React, { useEffect }  from  'react';
 import ScrollReveal from 'scrollreveal';
 import projeto from '../../../data/projetos.json';
 import Carousel from 'react-elastic-carousel';
-import { ThemeProvider } from 'styled-components';
 
 
 import * as S from './styles';

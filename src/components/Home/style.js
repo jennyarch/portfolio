@@ -34,7 +34,7 @@ export const Conteudo = styled.div`
     font-size: 5rem;
     font-weight: 700;
     font-family: 'Nunito', sans-serif;
-    line-height: 5.2rem;
+    line-height: 4rem;
     margin: 1px 0 1px 0;
       @media (max-width: 1200px) {
         margin: auto;
@@ -136,7 +136,6 @@ export const Conteudo = styled.div`
     padding: 20px 50px;
     border:none;
     background-color: #FFB244;
-    border: none;
     border-radius: 10px;
     margin: auto;
     margin-top: 50px;

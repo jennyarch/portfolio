@@ -1,23 +1,26 @@
 import React, { useState } from 'react';
+import Logo from '../../assets/img/logo_21.png';
 import * as S from './style.js';
 
 export default function Header(){
-  const myName = "<Jennyfer C. Santos/>";
   const [menu, setMenu] = useState(false);
+
+  const alt = "Logo descreve o nome da desenvolvedora e triangulos em lados opostos";
 
   function showMenu() {
     if (menu === false) setMenu(true)
     else setMenu(false)
   }
+
   return (
-    <>
+    <S.Header>
       <S.HeaderContainer>
       <S.Logo>
-        <a href='/'>{myName}</a>
+        <img src={Logo} alt={alt}/>
       </S.Logo>
       <S.Nav>
         <ul className={menu ? 'listFade' : undefined}>
-          <li><a onClick={menu ? showMenu : undefined} href="#home">Ínicio</a></li>
+          <li><a onClick={menu ? showMenu : undefined} href="#home">Home</a></li>
           <li><a onClick={menu ? showMenu : undefined} href="#about">Sobre Mim</a></li>
           <li><a onClick={menu ? showMenu : undefined} href="#skills">Skills</a></li>
           <li><a onClick={menu ? showMenu : undefined} href="#projects">Projetos</a></li>
@@ -31,7 +34,7 @@ export default function Header(){
       </S.menu>
       </S.HeaderContainer>
       
-    </>
+    </S.Header>
     
     
   );

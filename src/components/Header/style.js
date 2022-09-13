@@ -1,5 +1,25 @@
 import styled from 'styled-components';
 
+export const Header = styled.header`
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  top: 0;
+  opacity: 0.97;
+  z-index: 99;
+  background-color: #2C3333;
+  border-bottom: 1px solid rgba(114, 114, 126, 0.2);
+
+  @media (max-width: 1200px){
+    height: 80px;
+    padding: 10px;
+  }
+  @media(max-width: 850px){
+    height: 80px;
+    padding: 10px;
+  }
+`;
 export const HeaderContainer = styled.div`
   display:flex;
   flex-direction: row;
@@ -13,18 +33,13 @@ export const HeaderContainer = styled.div`
   }
 `;
 export const Logo = styled.div`
-  & a{
-    font-size: 32px;
-    color: #E4D192;
-    text-decoration: none;
-    cursor: pointer; 
-    @media (max-width: 1200px) {
-      font-size: 26px;
-    }
-    @media (max-width: 450px) {
-        font-size: 20px;
-        opacity: 0.97;
-      }
+  
+  & img{
+    width: 200px;
+    height: 65px;
+    padding: 8px;
+    margin: -25px 0;
+    cursor: pointer;
   }
 `;
 export const Nav = styled.nav`
@@ -44,16 +59,16 @@ export const Nav = styled.nav`
         }
     }
   & a{
-    text-decoration: none;
+    margin-right: 10px;
     color: #E4D192;
       &:hover{
-        color:#ffd700;
+        filter: drop-shadow(0 0 3px #FFD700);
     }
     @media (max-width: 1200px) {
       font-size: 20px;
     }
-    @media (max-width: 450px) {
-      font-size: 1.5rem;
+    @media (max-width: 950px) {
+      font-size: 22px;
     }
   }
   .listFade {
@@ -65,6 +80,7 @@ export const Nav = styled.nav`
     position: absolute;
     width: 100%;
     height: 100vh;
+    line-height: 50px;
     top: 55px;
     left: 0;
     opacity: 0.97;

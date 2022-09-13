@@ -126,10 +126,18 @@ export const CardSkills = styled.div`
         font-size: 50px;
         color: #FFD700;
         @media (max-width: 850px) {
-          font-size: 40px;        
+          font-size: 40px; 
+          transition:1s ease-out;
+
         }
         @media (max-width: 450px) {
-          font-size: 20px;        
+          font-size: 30px;
+          transition:1s ease-out;
+
+        }
+        @media (max-width: 320px) {
+          font-size: 20px; 
+          transition:1s ease-out;
         }
     }
     :hover{

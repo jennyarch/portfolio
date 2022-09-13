@@ -21,6 +21,7 @@ export default function Projetos(){
       reset: false
     });
 
+    ScrollReveal().reveal('.r-title', {delay: 200});
     ScrollReveal().reveal('.r-information', {delay: 200});
   },[])
 

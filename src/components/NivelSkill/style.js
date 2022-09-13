@@ -5,49 +5,36 @@ export const Container = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
   & p{
-    width: 50%;
+    width: 70%;
     font-size: 18px;
     font-weight: 500;
     color: #fff;
     opacity: 0.97;
     @media (max-width: 850px) {
-      width: 35%;
+      width: 50%;
       font-size: 16px;
     }
     @media (max-width: 450px) {
-      width: 25%;
+      width: 45%;
       font-size: 14px;
     }
   }
 `;
-export const PercentContent = styled.div`
-  display: flex;
-  justify-content: center;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 2px solid yellow;
-  background-color: #112B3C;
-    @media (max-width: 850px) {
-      width: 80px;
-      height: 80px;
-    }
-    @media (max-width: 450px) {
-      width: 50px;
-      height: 50px;
-    }
-`;
-export const Percent = styled.h4`
+
+export const Percent = styled.span`
   text-align: center;
   margin: auto;
-  color: #fff;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: 500;
+  color: #E4D192;
+  filter: drop-shadow(0 0 3px #FFD700);
+
     @media (max-width: 850px) {
-      font-size: 20px;
+      font-size: 40px;
     }
     @media (max-width: 450px) {
-      font-size: 14px;
+      font-size: 25px;
     }
 `;

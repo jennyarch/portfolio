@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import * as S from "./styles.js";
 import { IconContext } from "react-icons";
+import { BsEmojiHeartEyes, BsEmojiLaughing, BsEmojiWink, BsEmojiSunglasses, BsQuestionLg } from 'react-icons/bs';
 import { FaCss3Alt, FaReact, FaHtml5, FaGitAlt } from "react-icons/fa";
 import { DiResponsive, DiBootstrap } from 'react-icons/di';
 import { IoLogoJavascript } from "react-icons/io";
@@ -40,68 +41,74 @@ export default function Skills() {
     "Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples.",
     "Ele segue as diretrizes, componentes e ferramentas de material design do Google para tornar os aplicativos da web mais rápidos."
   ];
+  const emojis = [
+    <BsEmojiHeartEyes/>,
+    <BsEmojiLaughing />,
+    <BsEmojiWink />,
+    <BsEmojiSunglasses />
+  ];
 
   const [nameCardSkill, setNameCardSkill] = useState("");
   const [textSkill, setTextSkill] = useState("-> Passe o cursor sobre os ícones para saber mais <-");
-  const [nivelSkill, setNivelSkill] = useState("?");
+  const [nivelSkill, setNivelSkill] = useState([<BsQuestionLg/>]);
 
   function changeText(nameskill) {
     if (nameskill === "html") {
       setNameCardSkill("HTML");
       setTextSkill(text[0]);
-      setNivelSkill('75%');
+      setNivelSkill(emojis[0]);
     }
     if (nameskill === "css") {
       setNameCardSkill("CSS");
       setTextSkill(text[1]);
-      setNivelSkill('66%');
+      setNivelSkill(emojis[0]);
     }
 
     if (nameskill === "js") {
       setNameCardSkill("JavaScript");
       setTextSkill(text[2]);
-      setNivelSkill('60%');
+      setNivelSkill(emojis[2]);
     }
 
     if (nameskill === "git") {
       setNameCardSkill("Git");
       setTextSkill(text[3]);
-      setNivelSkill('50%');
+      setNivelSkill(emojis[3]);
     }
 
     if (nameskill === "react") {
       setNameCardSkill("ReactJS");
       setTextSkill(text[4]);
-      setNivelSkill('68%');
+      setNivelSkill(emojis[0]);
     }
 
     if (nameskill === "styled") {
       setNameCardSkill("Styled Components");
       setTextSkill(text[5]);
-      setNivelSkill('80%');
+      setNivelSkill(emojis[0]);
     }
 
     if (nameskill === "responsivo") {
       setNameCardSkill("Responsividade");
       setTextSkill(text[6]);
-      setNivelSkill('82%');
+      setNivelSkill(emojis[2]);
     }
 
     if (nameskill === "bootstrap") {
       setNameCardSkill("Bootstrap");
       setTextSkill(text[7]);
-      setNivelSkill('66%');
+      setNivelSkill(emojis[2]);
     }
     if (nameskill === "material") {
       setNameCardSkill("MUI");
       setTextSkill(text[8]);
-      setNivelSkill('60%');
+      setNivelSkill(emojis[3]);
     }
   }
   function clearText() {
     setNameCardSkill("");
     setTextSkill("-> Passe o cursor sobre os ícones para saber mais <-");
-    setNivelSkill("?");
+    setNivelSkill([<BsQuestionLg/>]);
   }
 
   return (

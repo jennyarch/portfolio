@@ -30,7 +30,7 @@ export const Title = styled.div`
     }
   }
 `;
-export const Conteudo = styled.form`
+export const ConteudoForm = styled.form`
   width: 100%;
   display: flex;
   flex-direction: column;

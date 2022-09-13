@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import * as S from "./style";
 import Avatar from "../../assets/img/imagemHome.svg";
-// import CV from "../../assets/docs/Jennyfer_Conceicao_Santos.pdf";
 import ScrollReveal from "scrollreveal";
 
 export default function Home() {
