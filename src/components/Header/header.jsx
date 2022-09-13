@@ -13,7 +13,7 @@ export default function Header(){
   }
 
   return (
-    <S.Header>
+    <>
       <S.HeaderContainer>
       <S.Logo>
         <img src={Logo} alt={alt}/>
@@ -34,7 +34,7 @@ export default function Header(){
       </S.menu>
       </S.HeaderContainer>
       
-    </S.Header>
+    </>
     
     
   );

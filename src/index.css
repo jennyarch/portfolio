@@ -15,7 +15,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #2C3333;
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
   width: 8px;
