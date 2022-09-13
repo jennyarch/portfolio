@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
   "engines": {
     "node": "16.15.0",
     "npm": "8.11.0"
@@ -19,6 +18,7 @@
     "cors": "^2.8.5",
     "emailjs-com": "^3.2.0",
     "express": "^4.18.1",
+    "nodemon": "^2.0.19",
     "react": "^18.1.0",
     "react-css-modules": "^4.7.11",
     "react-dom": "^18.1.0",
@@ -31,7 +31,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -54,8 +54,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.19"
   }
 }
