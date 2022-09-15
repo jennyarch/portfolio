@@ -71,7 +71,7 @@ export const ConteudoForm = styled.form`
     border: none;
     border-radius: 10px;
     :hover{
-      background-color: #FFD700;
+      background-color: #D36B00;
     }
   }
 `;
