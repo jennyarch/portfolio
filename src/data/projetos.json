@@ -87,7 +87,16 @@
     "alt": "Imagem da interface do site Tech Devs",
     "id": 10,
     "site": "#",
-    "repo": " https://github.com/jennyarch/tech_devs"
+    "repo": "https://github.com/jennyarch/tech_devs"
+  },
+  {
+    "title": "Jenny BOT",
+    "description": "Landing Page, desenvolvida através do desafio da Rafaela Ballerine.",
+    "photo": "/assets/projetos/jenny_bot.png",
+    "alt": "Imagem da interface do site Tech Devs",
+    "id": 11,
+    "site": "https://landing-page-jennyarch.vercel.app/",
+    "repo": "https://github.com/jennyarch/LandingPage"
   }
   
 ]
