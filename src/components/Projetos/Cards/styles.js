@@ -140,9 +140,48 @@ export const Card = styled.div`
     text-align: center;
     background-color: #FFC23C;
     cursor: pointer;
+    
+    
     :hover{
       background-color: #E4D192;
     }
+    @media (max-width: 450px) {
+      width: 45px;
+      height: 20px;
+      padding: 4px;
+      font-size: 10px;
+    }
+    @media (max-width: 400px) {
+      width: 40px;
+      height: 20px;
+      padding: 4px;
+      font-size: 10px;
+    }
+    @media (max-width: 320px)  {
+      width: 40px;
+      height: 20px;
+      padding: 4px;
+      font-size: 10px;
+    }
+  }
+  .linkDisable{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #FFC23C;
+    cursor: default;
+    pointer-events: none;
+    
+    :hover{
+      background-color: #E4D192;
+    }
+
     @media (max-width: 450px) {
       width: 45px;
       height: 20px;

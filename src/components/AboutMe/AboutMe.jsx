@@ -8,6 +8,7 @@ import Divider from '../Divider/Divider';
 import IconText from '../IconText/IconText.jsx';
 
 export default function SobreMim(){
+
   useEffect(() => {
     ScrollReveal({ reset: true})
 
@@ -23,8 +24,8 @@ export default function SobreMim(){
     ScrollReveal().reveal('article', {delay: 200})
     ScrollReveal().reveal('figure', {delay: 300})
   }, [])
+
   return(
-    
       <S.Content>
         <S.ContentImage>
           <img src={minhaImagem} alt="Foto da desenvolvedora deste site" />
@@ -37,14 +38,11 @@ export default function SobreMim(){
               <BsPersonCircle/>
             </IconText>
           </div>
-
-          <p className='r-paragrafo'>Sou Jennyfer, tenho 29 anos, sou desenvolvedora focada no front-end e venho constantemente aprimorando meus conhecimentos em <strong>HTML, CSS, JavaScript e ReactJS</strong>. Graduada em Análise e Desenvolvimento de Sistemas na Faculdade Mauricio de Nassau. <br />
-          No momento estou em busca da minha primeira <strong>oportunidade</strong>
+          <p className='r-paragrafo'>Me chamo Jennyfer, tenho 29 anos, sou desenvolvedora focada no front-end e venho constantemente aprimorando meus conhecimentos em <strong>HTML, CSS, JavaScript e ReactJS</strong>. Graduada em Análise e Desenvolvimento de Sistemas na Faculdade Mauricio de Nassau. <br />
+          Sou apaixonada por tecnologia e amando tudo que estou aprendendo <span>&#10084;</span>, e muito ansiosa para o que ainda vou aprender.
           </p>
         </S.contentAboutMe>
         
       </S.Content>
-    
-    
   );
 }

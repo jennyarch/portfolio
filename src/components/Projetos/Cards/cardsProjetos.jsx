@@ -3,8 +3,6 @@ import React, { useEffect }  from  'react';
 import ScrollReveal from 'scrollreveal';
 import projeto from '../../../data/projetos.json';
 import Carousel from 'react-elastic-carousel';
-
-
 import * as S from './styles';
 
 export default function CardsProjetos(){
@@ -29,8 +27,8 @@ export default function CardsProjetos(){
   ];
   
   return(
+    
     <S.Container>
-      
         <Carousel className='rec-carousel' breakPoints={breakpoints} >
             {projeto.map(projetos => 
               <S.Card className="r-card" key={projetos.id}>
@@ -38,13 +36,12 @@ export default function CardsProjetos(){
                 <h3>{projetos.title}</h3>
                 <p>{projetos.description}</p>
                 <div>
-                  <a className="verProjeto" href={projetos.site}>Live</a>
-                  <a className="verRepo" href={projetos.repo}>GitHub</a>
+                  <a className="verProjeto"target="_blank" rel="noopener noreferrer"  href={projetos.site}>Live</a>
+                  <a className="verRepo" target="_blank" rel="noopener noreferrer" href={projetos.repo}>GitHub</a>
                 </div>
               </S.Card>
             )}
         </Carousel>
-      
     </S.Container>
   );
 }

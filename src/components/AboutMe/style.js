@@ -86,6 +86,9 @@ export const contentAboutMe = styled.div`
         margin: auto;
       }
   }
+  & span {
+    color: #FFE69A;
+  }
   &  strong {
     color: #FFE69A;
   }
