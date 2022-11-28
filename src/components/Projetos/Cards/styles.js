@@ -8,13 +8,23 @@ export const Container = styled.div`
     background-color: #112B3C;
     color: #FFC23C;
     border: 2px solid #FFC23C;
+    
+    @media (max-width: 450px) {
+      display: none;
+    }
+  }
+  .rec.rec-arrow-left{
+    :hover{
+      background-color: #395B64;
+      transform: rotate(-360deg);
+      transition: 0.3s ease-out;
+    }
+  }
+  .rec.rec-arrow-right{
     :hover{
       background-color: #395B64;
       transform: rotate(360deg);
-      transition: 0.5s ease-out;
-    }
-    @media (max-width: 450px) {
-      display: none;
+      transition: 0.3s ease-out;
     }
   }
   .rec.rec-dot{
@@ -129,18 +139,15 @@ export const Card = styled.div`
     justify-content: space-around;
   }
   .verProjeto{
-    width: 100px;
-    height: 30px;
     border: none;
-    border-radius: 8px;
-    padding: 8px;
+    border-radius: 10px;
+    padding: 8px 30px;
     color: black;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
     background-color: #FFC23C;
     cursor: pointer;
-    
     
     :hover{
       background-color: #E4D192;
@@ -165,16 +172,14 @@ export const Card = styled.div`
     }
   }
   .linkDisable{
-    width: 100px;
-    height: 30px;
     border: none;
-    border-radius: 8px;
-    padding: 8px;
+    border-radius: 10px;
+    padding: 8px 30px;
     color: black;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
-    background-color: #FFC23C;
+    background-color: #C69749;
     cursor: default;
     pointer-events: none;
     
@@ -202,11 +207,9 @@ export const Card = styled.div`
     }
   }
   .verRepo{
-    width: 100px;
-    height: 30px;
     border: 1px solid #FFC23C;
-    border-radius: 8px;
-    padding: 8px;
+    border-radius: 10px;
+    padding: 8px 30px;
     color: #fff;
     font-size: 14px;
     font-weight: 500;

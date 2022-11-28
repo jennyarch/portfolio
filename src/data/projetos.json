@@ -93,7 +93,7 @@
     "title": "Jenny BOT",
     "description": "Landing Page, desenvolvida através do desafio da Rafaela Ballerine.",
     "photo": "/assets/projetos/jenny_bot.png",
-    "alt": "Imagem da interface do site Tech Devs",
+    "alt": "Imagem da interface do site Jenny BOT",
     "id": 11,
     "site": "https://landing-page-jennyarch.vercel.app/",
     "repo": "https://github.com/jennyarch/LandingPage"
@@ -102,7 +102,7 @@
     "title": "CRUD - ApiGoRest",
     "description": "Uma tabela CRUD que efetua o cadastro de usuários, deleta e atualiza, além de detalhar.",
     "photo": "/assets/projetos/crud.png",
-    "alt": "Imagem da interface do site Tech Devs",
+    "alt": "Imagem da interface do site CRUD - ApiGoRest",
     "id": 12,
     "site": "https://crud-atoscapital.netlify.app/",
     "repo": "https://github.com/jennyarch/CRUD-atosCapital"

@@ -13,8 +13,8 @@ export const Container = styled.div`
   .icon{
       font-size: 25px;
       color: #FFD700;
-      :hover{
-        color: red;
-      }
+        :hover{
+          color: red;
+        }
     }
 `;

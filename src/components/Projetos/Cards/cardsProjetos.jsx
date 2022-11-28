@@ -36,7 +36,7 @@ export default function CardsProjetos(){
                 <h3>{projetos.title}</h3>
                 <p>{projetos.description}</p>
                 <div>
-                  <a className="verProjeto"target="_blank" rel="noopener noreferrer"  href={projetos.site}>Live</a>
+                  <a className={projetos.id === 10 || projetos.id === 8 ? "linkDisable"  : "verProjeto" } target="_blank" rel="noopener noreferrer" href={projetos.site}>Live</a>
                   <a className="verRepo" target="_blank" rel="noopener noreferrer" href={projetos.repo}>GitHub</a>
                 </div>
               </S.Card>
